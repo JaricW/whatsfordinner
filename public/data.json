@@ -1,0 +1,95 @@
+{
+    "dinners": [
+      {
+        "id": 1,
+        "name": "Chorizo & mozzarella gnocchi bake",
+        "intro": "A quick and healthly meal",
+        "ingredients": "1 tbsp olive oil. 1 onion, finely chopped. 2 garlic cloves, crushed. 120g chorizo , diced. 2 x 400g cans chopped tomatoes. 1 tsp caster sugar. 600g fresh gnocchi. 125g mozzarella ball, cut into chunks. small bunch of basil, torn. green salad, to serve",
+        "method": "Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high. Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season, scatter over the remaining basil and serve with green salad.",
+        "time": 30,
+        "img": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gnocchi-1d16725.jpg?quality=90&webp=true&resize=300,272",
+        "pescatarian": false,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 2,
+        "name": "Fish, Chips & Peas",
+        "intro": "Time for a Chippy Tea",
+        "ingredients": "4 Fish Fillets, 1 Egg, 4 tbsp Flour, 150ml Lager, 4 Potatoes, 200g Peas, 200ml Vegetable Oil",
+        "method": "Mix together the flour, beer, egg, salt & pepper then put in the fridge to rest. Pre-heat your oven to 200 degrees c & chop your potatoes into chips. Toss the chips with 3tbsp of vegetable oil then lay flat on across 2 baking sheets making sure no potatoes are touching. Put the chips in the oven for 30 mins. After 20 mins Microwave the peas in a little water for 4 mins stirring halfway through. Also start heating up the 200ml of oil for shallow frying the fish. After 30 mins turn all the chips over & put back in the oven for 10 mins. Once they are back in the oven take the batter out of the fridge dip the fish in it then put it straight into the hot oil & fry for 5 mins each side. Once the fish is done plate up and serve.",
+        "time": 40,
+        "img": "https://www.parentclub.scot/sites/default/files/2019-09/Fish%20and%20chips-2.jpg",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 3,
+        "name": "Fish Pie",
+        "intro": "Simple but delicious",
+        "ingredients": "500g Swede, 8 Potatoes, 250g Soft Cheese, 150ml Vegetable Stock, 1tbsp Cornflour blending with 4tbsp Water, 400g Frozen",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 4,
+        "name": "Spag Bol",
+        "intro": "Meat and spaghetti",
+        "ingredients": "Meat, Spaghetti",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 5,
+        "name": "Chilli",
+        "intro": "Simple but delicious",
+        "ingredients": "Cheese, Bread",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 6,
+        "name": "Roast Dinner",
+        "intro": "Simple but delicious",
+        "ingredients": "Cheese, Bread",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 7,
+        "name": "Pizza",
+        "intro": "Simple but delicious",
+        "ingredients": "Cheese, Bread",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      },
+      {
+        "id": 8,
+        "name": "Lamb Chops",
+        "intro": "Simple but delicious",
+        "ingredients": "Cheese, Bread",
+        "time": 40,
+        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
+        "pescatarian": true,
+        "vegetarian": false,
+        "vegan": false
+      }
+    ]
+  }
+  
