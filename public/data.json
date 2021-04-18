@@ -9,7 +9,7 @@
         "time": 30,
         "img": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gnocchi-1d16725.jpg?quality=90&webp=true&resize=300,272",
         "pescatarian": false,
-        "vegetarian": false,
+        "vegetarian": true,
         "vegan": false
       },
       {
@@ -42,7 +42,7 @@
         "ingredients": "Meat, Spaghetti",
         "time": 40,
         "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
+        "pescatarian": false,
         "vegetarian": false,
         "vegan": false
       },
@@ -66,7 +66,7 @@
         "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
         "pescatarian": true,
         "vegetarian": false,
-        "vegan": false
+        "vegan": true
       },
       {
         "id": 7,
