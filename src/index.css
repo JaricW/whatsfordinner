@@ -17,7 +17,8 @@ code {
 }
 
 h1 {
-  font-family: "Crimson Text", serif;
+  
+  font-family: "Original Surfer", cursive;
   font-size: 40px;
 }
 
@@ -26,7 +27,7 @@ h2 {
 }
 
 p {
-  font-family: "Original Surfer", cursive;
+  font-family: "Crimson Text", serif;
 }
 
 .button {
