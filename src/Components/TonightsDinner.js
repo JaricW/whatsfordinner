@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
+import allStyles from "../Styles/AllStyles";
 
 const TonightsDinner = () => {
   const { forDinnerTonight, displayDinner } = useContext(GlobalContext);
@@ -11,21 +12,23 @@ const TonightsDinner = () => {
   };
   return (
     <>
-      <div
-        style={{
-          position: "absolute",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: "orange",
-          height: "100vh",
-          width: "100%",
-          flexDirection: "column",
-        }}
-      >
-        <h3>{dinnerTonight.name}</h3>
+      <div style={allStyles.tdLayout}>
+        <h2 style={allStyles.subHeading}>{dinnerTonight.name}</h2>
+        <img
+          style={allStyles.imgSize}
+          src={dinnerTonight.img}
+          alt={dinnerTonight.imgDescription}
+        />
+        <p style={allStyles.introStyle}>{dinnerTonight.intro}</p>
+        <p>
+          <a href={dinnerTonight.link} target="_blank">
+            Find a recipe here
+          </a>
+        </p>
 
-        <button onClick={goBack}>Not Tonight!</button>
+        <div className="buttonSecondary" onClick={goBack}>
+          Not Tonight!
+        </div>
       </div>
     </>
   );

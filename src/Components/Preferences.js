@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
+import allStyles from "../Styles/AllStyles";
 
 const Preferences = (props) => {
   const { value, arrayOfDinners } = useContext(GlobalContext);
@@ -53,19 +54,26 @@ const Preferences = (props) => {
 
   return (
     <>
-      <h2>Preferences</h2>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "50% 50%",
-          gridColumnGap: "10px",
-          gridRowGap: "10px",
-        }}
-      >
-        <button onClick={() => filterMenu("vegetarian")}>Vegetarian</button>
-        <button onClick={() => filterMenu("vegan")}>Vegan</button>
-        <button onClick={() => filterMenu("pescatarian")}>Pescatarian</button>
-        <button onClick={() => filterMenu("omnivore")}>Omnivore</button>
+      <h2 style={allStyles.subHeading}>Preferences</h2>
+      <div style={allStyles.prefButtonHolder}>
+        <div
+          className="buttonSecondary"
+          onClick={() => filterMenu("vegetarian")}
+        >
+          Vegetarian
+        </div>
+        <div className="buttonSecondary" onClick={() => filterMenu("vegan")}>
+          Vegan
+        </div>
+        <div
+          className="buttonSecondary"
+          onClick={() => filterMenu("pescatarian")}
+        >
+          Pescatarian
+        </div>
+        <div className="buttonSecondary" onClick={() => filterMenu("omnivore")}>
+          Omnivore
+        </div>
       </div>
     </>
   );

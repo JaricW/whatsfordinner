@@ -1,95 +1,158 @@
 {
-    "dinners": [
-      {
-        "id": 1,
-        "name": "Chorizo & mozzarella gnocchi bake",
-        "intro": "A quick and healthly meal",
-        "ingredients": "1 tbsp olive oil. 1 onion, finely chopped. 2 garlic cloves, crushed. 120g chorizo , diced. 2 x 400g cans chopped tomatoes. 1 tsp caster sugar. 600g fresh gnocchi. 125g mozzarella ball, cut into chunks. small bunch of basil, torn. green salad, to serve",
-        "method": "Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high. Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season, scatter over the remaining basil and serve with green salad.",
-        "time": 30,
-        "img": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gnocchi-1d16725.jpg?quality=90&webp=true&resize=300,272",
-        "pescatarian": false,
-        "vegetarian": true,
-        "vegan": false
-      },
-      {
-        "id": 2,
-        "name": "Fish, Chips & Peas",
-        "intro": "Time for a Chippy Tea",
-        "ingredients": "4 Fish Fillets, 1 Egg, 4 tbsp Flour, 150ml Lager, 4 Potatoes, 200g Peas, 200ml Vegetable Oil",
-        "method": "Mix together the flour, beer, egg, salt & pepper then put in the fridge to rest. Pre-heat your oven to 200 degrees c & chop your potatoes into chips. Toss the chips with 3tbsp of vegetable oil then lay flat on across 2 baking sheets making sure no potatoes are touching. Put the chips in the oven for 30 mins. After 20 mins Microwave the peas in a little water for 4 mins stirring halfway through. Also start heating up the 200ml of oil for shallow frying the fish. After 30 mins turn all the chips over & put back in the oven for 10 mins. Once they are back in the oven take the batter out of the fridge dip the fish in it then put it straight into the hot oil & fry for 5 mins each side. Once the fish is done plate up and serve.",
-        "time": 40,
-        "img": "https://www.parentclub.scot/sites/default/files/2019-09/Fish%20and%20chips-2.jpg",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": false
-      },
-      {
-        "id": 3,
-        "name": "Fish Pie",
-        "intro": "Simple but delicious",
-        "ingredients": "500g Swede, 8 Potatoes, 250g Soft Cheese, 150ml Vegetable Stock, 1tbsp Cornflour blending with 4tbsp Water, 400g Frozen",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": false
-      },
-      {
-        "id": 4,
-        "name": "Spag Bol",
-        "intro": "Meat and spaghetti",
-        "ingredients": "Meat, Spaghetti",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": false,
-        "vegetarian": false,
-        "vegan": false
-      },
-      {
-        "id": 5,
-        "name": "Chilli",
-        "intro": "Simple but delicious",
-        "ingredients": "Cheese, Bread",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": false
-      },
-      {
-        "id": 6,
-        "name": "Roast Dinner",
-        "intro": "Simple but delicious",
-        "ingredients": "Cheese, Bread",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": true
-      },
-      {
-        "id": 7,
-        "name": "Pizza",
-        "intro": "Simple but delicious",
-        "ingredients": "Cheese, Bread",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": false
-      },
-      {
-        "id": 8,
-        "name": "Lamb Chops",
-        "intro": "Simple but delicious",
-        "ingredients": "Cheese, Bread",
-        "time": 40,
-        "img": "https://images.eatthismuch.com/site_media/img/252986_simmyras_c4a2276b-8be6-4477-b2c0-c0ef47df514c.png",
-        "pescatarian": true,
-        "vegetarian": false,
-        "vegan": false
-      }
-    ]
-  }
-  
+  "dinners": [
+    {
+      "id": 1,
+      "name": "Chilli con carne",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chilliconcarne_67875_16x9.jpg",
+      "imgDescription": "Chilli con carne",
+      "intro": "Feel the heat!",
+      "link": "https://www.bbc.co.uk/food/recipes/chilliconcarne_67875",
+      "pescatarian": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 2,
+      "name": "Pork and apple burgers",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/pork_and_apple_burger_94249_16x9.jpg",
+      "imgDescription": "Pork and apple burgers",
+      "intro": "You can't go wrong with a burger!",
+      "link": "https://www.bbc.co.uk/food/recipes/pork_and_apple_burger_94249",
+      "pescatarian": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 3,
+      "name": "Firecracker prawns with stir-fried greens",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/firecracker_prawns_with_47781_16x9.jpg",
+      "imgDescription": "Firecracker prawns with stir-fried greens",
+      "intro": "Tasty prawns with a kick",
+      "link": "https://www.bbc.co.uk/food/recipes/firecracker_prawns_with_47781",
+      "pescatarian": true,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 4,
+      "name": "Quick chicken korma",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chicken_korma_09900_16x9.jpg",
+      "imgDescription": "Quick chicken korma",
+      "intro": "Full of flavour!",
+      "link": "https://www.bbc.co.uk/food/recipes/chicken_korma_09900",
+      "pescatarian": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 5,
+      "name": "Roast chicken legs",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/roast_chicken_legs_with_40931_16x9.jpg",
+      "imgDescription": "Roast chicken legs",
+      "intro": "Simple to make and a treat to eat!",
+      "link": "https://www.bbc.co.uk/food/recipes/roast_chicken_legs_with_40931",
+      "pescatarian": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 6,
+      "name": "Beef burritos",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/mexicansteakburrito_86980_16x9.jpg",
+      "imgDescription": "Beef burritos",
+      "intro": "A healthy and hearty alternative to takeaways",
+      "link": "https://www.bbc.co.uk/food/recipes/mexicansteakburrito_86980",
+      "pescatarian": false,
+      "vegetarian": false,
+      "vegan": false
+    },
+    {
+      "id": 7,
+      "name": "Lentil bolognese",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/lentil_bolognese_60554_16x9.jpg",
+      "imgDescription": "Lentil bolognese",
+      "intro": "A rich & savoury lentil bolognese",
+      "link": "https://www.bbc.co.uk/food/recipes/lentil_bolognese_60554",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": 8,
+      "name": "Vegan Thai green curry",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/vegan_thai_green_curry_69640_16x9.jpg",
+      "imgDescription": "Vegan Thai green curry",
+      "intro": "Packed with flavour",
+      "link": "https://www.bbc.co.uk/food/recipes/vegan_thai_green_curry_69640",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": 9,
+      "name": "Tomato, chickpea and pasta soup",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/tomato_chickpea_and_78792_16x9.jpg",
+      "imgDescription": "Tomato, chickpea and pasta soup",
+      "intro": "Based on an Italian Classic",
+      "link": "https://www.bbc.co.uk/food/recipes/tomato_chickpea_and_78792",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": 10,
+      "name": "Vegan pulled jackfruit",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/vegan_pulled_jackfruit_17371_16x9.jpg",
+      "imgDescription": "Vegan pulled jackfruit",
+      "intro": "You'll want to eat this everyday!",
+      "link": "https://www.bbc.co.uk/food/recipes/vegan_pulled_jackfruit_17371",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    }
+    ,{
+      "id": 11,
+      "name": "Sweetcorn mapo tofu",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/sweetcorn_mapo_tofu_53761_16x9.jpg",
+      "imgDescription": "Sweetcorn mapo tofu",
+      "intro": "Perfect for a Friday night in",
+      "link": "https://www.bbc.co.uk/food/recipes/sweetcorn_mapo_tofu_53761",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    }
+    ,{
+      "id": 12,
+      "name": "Healthy chickpea burgers",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chickpea_and_sweetcorn_87660_16x9.jpg",
+      "imgDescription": "Healthy chickpea burgers",
+      "intro": "Zingy vegan chickpea burgers!",
+      "link": "https://www.bbc.co.uk/food/recipes/chickpea_and_sweetcorn_87660",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": 13,
+      "name": "Tofu peanut vegan stir-fry",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/tofu_peanut_stir-fry_62729_16x9.jpg",
+      "imgDescription": "Tofu peanut vegan stir-fry",
+      "intro": "An easy to make meal with lots of flavour",
+      "link": "https://www.bbc.co.uk/food/recipes/tofu_peanut_stir-fry_62729",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    },
+    {
+      "id": 14,
+      "name": "Spinach, aubergine and chickpea curry",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/spinachaubergineandc_88020_16x9.jpg",
+      "imgDescription": "Spinach, aubergine and chickpea curry",
+      "intro": "A delicious vegan curry",
+      "link": "https://www.bbc.co.uk/food/recipes/spinachaubergineandc_88020",
+      "pescatarian": true,
+      "vegetarian": true,
+      "vegan": true
+    }
+  ]
+}

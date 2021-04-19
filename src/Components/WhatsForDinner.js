@@ -4,6 +4,8 @@ import DinnerButton from "./DinnerButton";
 import Preferences from "./Preferences";
 import TonightsDinner from "./TonightsDinner";
 
+import allStyles from "../Styles/AllStyles";
+
 import { GlobalContext } from "../Context/GlobalState";
 
 const WhatsForDinner = () => {
@@ -23,17 +25,14 @@ const WhatsForDinner = () => {
   return (
     <>
       <main
-        style={{
-          height: "100vh",
-          width: "100%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
+        style={allStyles.mainLayout}
       >
-        <DinnerButton />
-        <Preferences />
+        <div
+          style={allStyles.containerLayout}
+        >
+          <DinnerButton />
+          <Preferences />
+        </div>
         {showDinner && <TonightsDinner />}
       </main>
     </>

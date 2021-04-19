@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
+import allStyles from "../Styles/AllStyles";
 
 const DinnerButton = (props) => {
   const { arrayOfDinners, forDinnerTonight, displayDinner } = useContext(
@@ -16,9 +17,9 @@ const DinnerButton = (props) => {
   };
 
   return (
-    <button onClick={showMeDinner} style={{ height: "200px", width: "200px" }}>
+    <div className="button" onClick={showMeDinner} style={allStyles.dinnerButton}>
       <h1>What's For Dinner?</h1>
-    </button>
+    </div>
   );
 };
 
