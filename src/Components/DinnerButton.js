@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
-import allStyles from "../Styles/AllStyles";
 
 const DinnerButton = (props) => {
   const { arrayOfDinners, forDinnerTonight, displayDinner } = useContext(
@@ -17,9 +16,15 @@ const DinnerButton = (props) => {
   };
 
   return (
-    <div className="button" onClick={showMeDinner} style={allStyles.dinnerButton}>
+    <button
+      className="h-60 w-60 flex items-center justify-center border-solid border-current border-4 rounded-2xl p-6 text-center
+       text-lightYellow bg-lightOrange shadow-2xl
+       hover:text-lightOrange hover:bg-lightYellow
+       focus:outline-none"
+      onClick={showMeDinner}
+    >
       <h1>What's For Dinner?</h1>
-    </div>
+    </button>
   );
 };
 

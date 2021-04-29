@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
-import allStyles from "../Styles/AllStyles";
 
 const TonightsDinner = () => {
   const { forDinnerTonight, displayDinner } = useContext(GlobalContext);
@@ -12,23 +11,30 @@ const TonightsDinner = () => {
   };
   return (
     <>
-      <div style={allStyles.tdLayout}>
-        <h2 style={allStyles.subHeading}>{dinnerTonight.name}</h2>
+      <div className="absolute h-5/6 w-10/12 flex flex-col justify-around items-center text-center bg-turqouise rounded-2xl"
+  >
+    
+        <h2 className="text-2xl p-4 text-lightYellow text-shadow-sm">{dinnerTonight.name}</h2>
         <img
-          style={allStyles.imgSize}
+         className="w-5/6 sm:w-3/6"
           src={dinnerTonight.img}
           alt={dinnerTonight.imgDescription}
         />
-        <p style={allStyles.introStyle}>{dinnerTonight.intro}</p>
+        <p className="italic text-lightYellow p-2 text-lg">{dinnerTonight.intro}</p>
         <p>
-          <a href={dinnerTonight.link} target="_blank">
+          <a href={dinnerTonight.link} target="_blank"
+          className="underline text-blue-800"
+          >
             Find a recipe here
           </a>
         </p>
 
-        <div className="buttonSecondary" onClick={goBack}>
+        <button className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+          text-lightOrange bg-lightYellow  shadow-2xl
+          hover:text-lightYellow hover:bg-lightOrange
+          focus:text-lightYellow focus:bg-lightOrange focus:outline-none" onClick={goBack}>
           Not Tonight!
-        </div>
+        </button>
       </div>
     </>
   );

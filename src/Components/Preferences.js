@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
-import allStyles from "../Styles/AllStyles";
 
 const Preferences = (props) => {
   const { value, arrayOfDinners } = useContext(GlobalContext);
@@ -54,26 +53,46 @@ const Preferences = (props) => {
 
   return (
     <>
-      <h2 style={allStyles.subHeading}>Preferences</h2>
-      <div style={allStyles.prefButtonHolder}>
-        <div
-          className="buttonSecondary"
+      <h2 className="text-2xl p-4 text-yellow-500 text-shadow-xl">
+        Preferences
+      </h2>
+      <div className="grid grid-cols-2 gap-2">
+        <button
+          className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+          text-lightOrange bg-lightYellow shadow-2xl
+          hover:text-lightYellow hover:bg-lightOrange
+          focus:text-lightYellow focus:bg-lightOrange focus:outline-none"
           onClick={() => filterMenu("vegetarian")}
         >
           Vegetarian
-        </div>
-        <div className="buttonSecondary" onClick={() => filterMenu("vegan")}>
+        </button>
+        <button
+          className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+           text-lightOrange bg-lightYellow shadow-2xl
+           hover:text-lightYellow hover:bg-lightOrange
+           focus:text-lightYellow focus:bg-lightOrange focus:outline-none"
+          onClick={() => filterMenu("vegan")}
+        >
           Vegan
-        </div>
-        <div
-          className="buttonSecondary"
+        </button>
+        <button
+          className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+          text-lightOrange bg-lightYellow shadow-2xl
+          hover:text-lightYellow hover:bg-lightOrange
+          focus:text-lightYellow focus:bg-lightOrange focus:outline-none"
           onClick={() => filterMenu("pescatarian")}
         >
           Pescatarian
-        </div>
-        <div className="buttonSecondary" onClick={() => filterMenu("omnivore")}>
+        </button>
+        <button
+          className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+          text-lightOrange bg-lightYellow shadow-2xl
+          hover:text-lightYellow hover:bg-lightOrange
+          focus:text-lightYellow focus:bg-lightOrange focus:outline-none"
+          onClick={() => filterMenu("omnivore")}
+        >
           Omnivore
-        </div>
+        </button>
       </div>
     </>
   );
