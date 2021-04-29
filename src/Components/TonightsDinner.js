@@ -13,7 +13,6 @@ const TonightsDinner = () => {
     <>
       <div className="absolute h-5/6 w-10/12 flex flex-col justify-around items-center text-center bg-turqouise rounded-2xl"
   >
-    
         <h2 className="text-2xl p-4 text-lightYellow text-shadow-sm">{dinnerTonight.name}</h2>
         <img
          className="w-5/6 sm:w-3/6"

@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Project Name
+>What's for Dinner is a website designed to suggest dinner options to you based on a selection of preferences.
+>The website currently has 14 different dinner options, with 4 different preferences to choose from.
+>All dinner choices come with a link to an external recipe website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Website](#website)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-## Available Scripts
+## General info
+A lot of people (myself included!) don't like to eat the same thing for dinner everyday, but struggle to think up new meal ideas on the go.
+What's For Dinner has been created to solve that problem and provides the user to a variety of dinner options.
 
-In the project directory, you can run:
 
-### `npm start`
+## Technologies
+What's for Dinner is built with:
+HTML5
+Tailwind CSS
+React.js
+Hosted on netlify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Website
+View the full website here - https://dinnerpicker.netlify.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Code Examples
+    <>
+      <div className="absolute h-5/6 w-10/12 flex flex-col justify-around items-center text-center bg-turqouise rounded-2xl"
+  >
+        <h2 className="text-2xl p-4 text-lightYellow text-shadow-sm">{dinnerTonight.name}</h2>
+        <img
+         className="w-5/6 sm:w-3/6"
+          src={dinnerTonight.img}
+          alt={dinnerTonight.imgDescription}
+        />
+        <p className="italic text-lightYellow p-2 text-lg">{dinnerTonight.intro}</p>
+        <p>
+          <a href={dinnerTonight.link} target="_blank"
+          className="underline text-blue-800"
+          >
+            Find a recipe here
+          </a>
+        </p>
 
-### `npm test`
+        <button className="flex items-center justify-center border-solid border-current border-2 rounded-2xl p-2 text-center
+          text-lightOrange bg-lightYellow  shadow-2xl
+          hover:text-lightYellow hover:bg-lightOrange
+          focus:text-lightYellow focus:bg-lightOrange focus:outline-none" onClick={goBack}>
+          Not Tonight!
+        </button>
+      </div>
+    </>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+Current features:
+* 14 unique meals
+* 4 different preference filters
 
-### `npm run build`
+To-do list:
+* Increase to 50 different meals
+* Add an option to create a weeks meal plan of dinners
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Status
+The initial phase of the project is working and completed.
+The next phase is currently being planned out, and will add a week meal plan option to the website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Inspiration
+The project has been inspired by the idea of weekly meal preparation, and aims to cut down on the time spent looking for new meals so that the user can just cook them.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Created by Jaric Woodhead, feel free to contact me via email jaric_woodhead@msn.com.
