@@ -1,4 +1,4 @@
-# Project Name
+# What's For Dinner
 >What's for Dinner is a website designed to suggest dinner options to you based on a selection of preferences.
 >The website currently has 14 different dinner options, with 4 different preferences to choose from.
 >All dinner choices come with a link to an external recipe website.
